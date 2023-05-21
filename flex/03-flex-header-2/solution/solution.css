@@ -51,8 +51,9 @@ ul {
 
 .header {
   display: flex;
-  justify-content: space-between;
   padding: 8px;
+  justify-content: space-between;
+  
 }
 
 ul {
@@ -66,4 +67,10 @@ ul {
   display: flex;
   align-items: center;
   gap: 16px;
+  background-color: red
+}
+
+
+.right {
+  background-color: blue;
 }
