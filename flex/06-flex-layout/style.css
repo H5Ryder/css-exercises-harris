@@ -38,7 +38,6 @@ a:hover, a:visited, a:link, a:active
 ul {
   text-align: center;
   padding: 0;
-  background-color: aqua;
  
 }
 
@@ -46,7 +45,6 @@ ul li {
   list-style-type: none;
   display:inline-block;
   
-
 }
 
 li {
@@ -56,7 +54,6 @@ li {
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .footer, .header {
@@ -70,9 +67,11 @@ body {
 }
 
 .content {
-  align-self: center;
+  flex:1;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: green;
+  justify-content: center;
 }
 
